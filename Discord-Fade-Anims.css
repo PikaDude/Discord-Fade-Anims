@@ -1,16 +1,13 @@
-.message, .message-content, .image, .tooltip, .guild, .section, .context-menu, .friends-row, .channel, .user-settings-modal, .channel-voice-states, .selected:before, .markdown-modal, .icon-muted, .icon-deafened, .avatar-large, .empty-message {
+.message:not(.message-sending), .message-content:not(.message-sending), .image:not(.message-sending), .tooltip, .guild, .section, .context-menu, .friends-row, .channel, .user-settings-modal, .channel-voice-states, .selected:before, .markdown-modal, .icon-muted, .icon-deafened, .avatar-large:not(.message-sending), .empty-message, .popout-menu {
     animation: PikaDude 0.5s;
 }
 
 .user-popout, .emoji-picker, .popout, .option-popout {
     animation: PikaDude 0.2s;
 }
+
 .channel-members {
     animation: PikaDude 1s;
-}
-
-.channel.icon {
-    opacity: 100;
 }
 
 @keyframes PikaDude {
