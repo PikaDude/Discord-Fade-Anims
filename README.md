@@ -2,8 +2,8 @@
 Adds fading animations to almost everything in Discord.
 
 # Screenshots
-![Screenshot](Screenshot1.gif)
-![Screenshot](Screenshot2.gif)
+![Screenshot](1.gif)
+![Screenshot](2.gif)
 
 # Known bugs
 - The current users messages flicker when sent.
