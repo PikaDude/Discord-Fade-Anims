@@ -1,0 +1,24 @@
+.message, .message-content, .image, .tooltip, .guild, .section, .context-menu, .friends-row, .channel, .user-settings-modal, .channel-voice-states, .selected:before, .markdown-modal, .icon-muted, .icon-deafened, .avatar-large, .empty-message {
+    animation: PikaDude 0.5s;
+}
+
+.user-popout, .emoji-picker, .popout, .option-popout {
+    animation: PikaDude 0.2s;
+}
+.channel-members {
+    animation: PikaDude 1s;
+}
+
+.channel.icon {
+    opacity: 100;
+}
+
+@keyframes PikaDude {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 100;
+    }
+}
