@@ -1,4 +1,4 @@
-.message:not(.message-sending), .message-content:not(.message-sending), .image:not(.message-sending), .tooltip, .guild, .section, .context-menu, .friends-row, .channel, .user-settings-modal, .channel-voice-states, .selected:before, .markdown-modal, .icon-muted, .icon-deafened, .avatar-large:not(.message-sending), .empty-message, .popout-menu, .editable, .emoji-item, .quickswitcher, .avatar-small, .ui-guild-nsfw, .quickswitcher::after {
+.message:not(.message-sending), .message-content:not(.message-sending), .image:not(.message-sending), .tooltip, .guild, .section, .context-menu, .friends-row, .channel, .user-settings-modal, .channel-voice-states, .selected:before, .markdown-modal, .icon-muted, .icon-deafened, .avatar-large:not(.message-sending), .empty-message, .popout-menu, .editable, .emoji-item, .quickswitcher, .avatar-small, .ui-guild-nsfw, .quickswitcher::after, .ready, .quote, .connection-status, .attribution {
     animation: PikaDude 0.5s;
 }
 
